@@ -1,0 +1,4 @@
+schema: "api/*.gql"
+extensions:
+  languageService:
+    useSchemaFileDefinitions: true

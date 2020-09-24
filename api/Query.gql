@@ -1,0 +1,5 @@
+type Query {
+    messages: [Message!]!
+    users: [User!]!
+    user(userId: String!): User
+}
